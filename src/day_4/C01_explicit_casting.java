@@ -8,7 +8,9 @@ public class C01_explicit_casting {
         System.out.println(ilkHarf);
 
         char girilenChar='f';
-        System.out.println(girilenChar+1);
-        System.out.println("istenen yeni değer : "+ (char)(girilenChar+1));
+        System.out.println(girilenChar+1); // 103
+        System.out.println("istenen yeni değer : "+ (char)(girilenChar+1)); // istenen yeni değer : g
+        System.out.println("istenen yeni değer : "+ (char)(girilenChar+5)); // istenen yeni değer : k
+
     }
 }
